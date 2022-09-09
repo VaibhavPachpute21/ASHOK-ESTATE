@@ -146,8 +146,7 @@ form .btn {
 
 /* secTwo start */
 
-.secTwo,
-.secFive {
+.secTwo {
     background-image: url('./assets/dot\ \(1\).png'), radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8));
     background-position: center center;
     background-repeat: no-repeat;
@@ -219,20 +218,16 @@ form .btn {
 }
 
 
-.secFive {
-    margin-top: 100px !important;
-}
-
 
 /* price_main */
 .price_main {
     font-family: 'Girloy';
     width: 100%;
     float: left;
-    padding: 3% 0;
+    padding: 0px 0;
     background-color: white;
     text-align: center;
-    margin-top: 5%;
+    margin-top: 50px;
 }
 
 /* .price_main h2 {
@@ -352,8 +347,9 @@ form .btn {
 
 /* ==================schedule and contact css start=========== */
 .schedule {
-    padding: 70px 60px;
+    padding: 5px 60px;
     font-family: 'Girloy';
+    padding-top: 50px;
 
 }
 
@@ -410,6 +406,7 @@ form .btn {
 .buildingimg {
     margin-top: -150px;
     position: relative;
+    padding: 0;
 }
 
 .buildingimg img {
@@ -448,6 +445,22 @@ form .btn {
     font-weight: 500;
     font-size: 13.5px;
     border-radius: 0px;
+}
+
+.fbtn{
+    position:fixed;
+	width:90px;
+	height:90px;
+	bottom:40px;
+	right:40px;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+
+}
+
+.fbtn img{
+width: 80px;
 }
 
 
