@@ -131,6 +131,19 @@ body {
     font-weight: 500;
 }
 
+.frm .form-elements .mbtn{
+    border: none;
+    width: 280px;
+    height: 40px;
+    max-width: 100%;
+    background-color: #a78545;
+    margin-top: 20px;
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 13.5px;
+    border-radius: 0px;
+}
+
 form .form-elements .mbtn {
     border: none;
     width: 280px;
