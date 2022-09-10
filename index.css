@@ -115,7 +115,7 @@ body {
     font-family: "Gilroy";
 }
 
-.frm input {
+.frm .form-elements input {
     background: #000000;
     border: none;
     margin: 10px 0px;
@@ -131,7 +131,7 @@ body {
     font-weight: 500;
 }
 
-form .btn {
+form .form-elements .mbtn {
     border: none;
     width: 280px;
     height: 40px;
@@ -423,18 +423,18 @@ form .btn {
     background-image: url(./assets/buildings.png);
 }
 
-.secEight label {
+.secEight .form-elements label {
     font-family: 'Girloy';
     padding-top: 10px;
 }
 
-.secEight input {
+.secEight .form-elements input {
     padding: 10px;
     width: 100%;
     height: 40px;
 }
 
-.secEight .btn-submit {
+.secEight .form-elements .btn-submit {
     border: none;
     width: 280px;
     height: 40px;
@@ -465,7 +465,7 @@ width: 80px;
 
 
 footer {
-    background-color: #172f91;
+    background-color: #a78545;
     /* background-image: url(./assets/buildings.png); */
     padding: 40px 60px;
     color: white;
